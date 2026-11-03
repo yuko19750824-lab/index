@@ -3,36 +3,37 @@
 <link rel="stylesheet" href="index.css">
 
 <div class="image-container">
-  <img src="北海道.png" alt="画像1の説明">
-  <img src="北海道（文字）.png" alt="画像2の説明">
+    <img src="北海道.png" alt="画像1の説明">
+    <img src="北海道（文字）.png" alt="画像2の説明">
 </div>
-
-
-<style>
-.image-container {
-  display: flex;         /* 横並びにする */
-  justify-content: space-between; /* 左右に均等な間隔をあける */
-  align-items: center;   /* 縦方向の中央揃え */
-}
-
-.image-container img {
-  width: 30%;            /* 2枚並ぶようにそれぞれの横幅を約半分に設定 */
-  height: auto;          /* 比率を維持して画像を変形させない */
-}
-</style>
-
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <title>北海道の観光・イベント・旅行</title>
+    
     <link rel="stylesheet" href="css/style.css">
+
+    <style>
+      .image-container {
+        display: flex;         /* 横並びにする */
+        justify-content: space-between; /* 左右に均等な間隔をあける */
+        align-items: center;   /* 縦方向の中央揃え */
+      }
+
+      .image-container img {
+         width: 30%;            /* 2枚並ぶようにそれぞれの横幅を約半分に設定 */
+         height: auto;          /* 比率を維持して画像を変形させない */
+      }
+    </style>
 </head>
 
 
-<nav>                    <!-- グローバルナビゲーション -->
+<body>
+  <nav>                    <!-- グローバルナビゲーション -->
     <ul class="gnav-navi-1">
-    <li><a href="http://127.0.0.1:5500/index(master).html">TOP<br>トップ</a></li>
+    <li><a href="index(master).html">TOP<br>トップ</a></li>
     <li><a href="#">Central<br>道央</a></li>
     <li><a href="#">Northern<br>道北</a></li>
     <li><a href="#">Southern<br>道南</a></li>
@@ -40,10 +41,8 @@
     <li><a href="#">Tokachi<br>十勝</a></li>
     <li><a href="#">Kushiro・Nemuro<br>釧路・根室</a></li>
     </ul>
-</nav>
+  </nav>
 
-
-<body>
     <div class="content">
 
         <header>
@@ -51,43 +50,40 @@
             <div class="category">
 
                 <div class="menu">
-                    <h1><a href="移動先のURL" style="color: inherit; text-decoration: none;">北海道の観光・イベント・旅行・ふれあい・飲食</a></h1>
+                    <h1><a>北海道の観光・イベント・旅行・ふれあい・飲食</a></h1>
                 </div>
 
                 <div class="slider-container">
                 <div class="slideimg">
-                <img src="馬.jpg">
+                <img src="馬.jpg" alt="馬">
                 </div>
                 
                 <div class="slideimg">
-                <img src="雪.jpg">
+                <img src="雪.jpg" alt="雪">
                 </div>
 
                 <div class="slideimg">
-                <img src="夜景.jpg"> 
-                </div>
-                </div>
-
-                <br>
-
-                <div class="menu">
-                    <p2><a href="http://127.0.0.1:5500/index(tourism).html" style="color: inherit; text-decoration: none; display: inline-block; text-align: left; width: 100%;">観光</a></p2>
+                <img src="夜景.jpg" alt="夜景"> 
                 </div>
 
                 <div class="menu">
-                    <p3><a href="http://127.0.0.1:5500/index(event).html" style="color: inherit; text-decoration: none; display: inline-block; text-align: left; width: 100%;">イベント</a></p3>
+                    <p2><a href="index(tourism).html" style="color: inherit; text-decoration: none; display: inline-block; text-align: left; width: 100%;">観光</a></p2>
                 </div>
 
                 <div class="menu">
-                    <p4><a href="http://127.0.0.1:5500/index(trip).html" style="color: inherit; text-decoration: none; display: inline-block; text-align: left; width: 100%;">旅行</a></p4>
+                    <p3><a href="index(event).html" style="color: inherit; text-decoration: none; display: inline-block; text-align: left; width: 100%;">イベント</a></p3>
                 </div>
 
                 <div class="menu">
-                    <p5><a href="http://127.0.0.1:5500/index(trip).html" style="color: inherit; text-decoration: none; display: inline-block; text-align: left; width: 100%;">ふれあい</a></p5>
+                    <p4><a href="index(trip).html" style="color: inherit; text-decoration: none; display: inline-block; text-align: left; width: 100%;">旅行</a></p4>
                 </div>
 
                 <div class="menu">
-                    <p6><a href="http://127.0.0.1:5500/index(meal).html" style="color: inherit; text-decoration: none; display: inline-block; text-align: left; width: 100%;">飲食</a></p6>
+                    <p5><a href="index(fureai).html" style="color: inherit; text-decoration: none; display: inline-block; text-align: left; width: 100%;">ふれあい</a></p5>
+                </div>
+
+                <div class="menu">
+                    <p6><a href="index(meal).html" style="color: inherit; text-decoration: none; display: inline-block; text-align: left; width: 100%;">飲食</a></p6>
                 </div>
 
             </div>
@@ -111,3 +107,5 @@
     </div>
 
 </body>
+
+</html>
